@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Future Ancestors Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Future Ancestors Project Gallery</h1>
+    <p>Click on an image to learn more about the projects happening at each site.</p>
+  </header>
+
+  <main class="gallery-container">
+    <div class="gallery-item" onclick="showInfo('site1')">
+      <img src="https://via.placeholder.com/200x150?text=Site+1" alt="Site 1 Project">
+      <div class="info" id="site1">Site 1: A digital moʻolelo about the loʻi kalo.</div>
+    </div>
+
+    <div class="gallery-item" onclick="showInfo('site2')">
+      <img src="https://via.placeholder.com/200x150?text=Site+2" alt="Site 2 Project">
+      <div class="info" id="site2">Site 2: AR map showcasing traditional fishponds.</div>
+    </div>
+
+    <div class="gallery-item" onclick="showInfo('site3')">
+      <img src="https://via.placeholder.com/200x150?text=Site+3" alt="Site 3 Project">
+      <div class="info" id="site3">Site 3: Interactive story about native plants and climate resilience.</div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
